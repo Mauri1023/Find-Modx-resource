@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Find Modx resource",
+    "version": "1.0",
+    "description": "Open the resource in MODX of the selected page.",
+    "author": "Mauricio De Oliveira (Takeoff Media).",
+    "icons": {
+        "128":"128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon":"128.png"
+    },
+    "web_accessible_resources": [
+        "/info-icon.png"
+    ],
+    "content_scripts": [ {
+        "all_frames": true,
+        "js": ["assets/jquery-3.5.1.min.js", "resources.js" ],
+        "matches": [ "http://*/*", "https://*/*", "file://*/*" ]
+      } ],
+    "permissions": [
+        "activeTab"
+    ]
+}
