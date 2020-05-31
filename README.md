@@ -29,6 +29,6 @@ For installation, just drag the folder to the extension manager in Chrome (chrom
 Open a page on your website and click on the "Find MODx Resource" icon. The Modx resource should have been run 😊
 
 
-### Authors ✒️
+### Author ✒️
 
 * **Mauricio De Oliveira** -  [mdo-uy](https://github.com/mdo-uy)
